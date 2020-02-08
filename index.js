@@ -1,15 +1,18 @@
 function happyHolidays() {
   return "happyHolidays!"
   happyHolidays();
-}// write your code below!
-function happyHolidaysTo(){
-  return (`Happy Holidays, ${name})!`
-  happyHolidaysTo();
 }
-var holiday = "Fathers day"
-var name = "Brandon"
+function happyHolidaysTo (name) {
+    return "Happy holidays, " + `${name}` + "!";
+    return `Happy holidays, ${name}!`;
+  }
 
-function happyCustomHolidayTo() {
-  console.log (`Happy ${holiday}, ${name})!`
-  happyCustomHolidayTo()`
-}
+  function happyHolidayTo (holiday, name) {
+    return "Happy " + `${holiday}` + ", " + `${name}` + "!";
+    return `Happy ${holiday}, ${name}!`;
+  }
+
+  function holidayCountdown (holiday, days) {
+    return "It's " + `${days}` + " days until " + `${holiday}` + "!";
+    return `It's ${days} days until ${holiday}!`;
+  }
