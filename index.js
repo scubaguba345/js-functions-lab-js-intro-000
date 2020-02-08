@@ -1,5 +1,5 @@
 function happyHolidays() {
-  return "happyHolidays!"
+  return "Happy Holidays!"
   happyHolidays();
 }
 function happyHolidaysTo (name) {
